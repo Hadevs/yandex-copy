@@ -1,0 +1,88 @@
+html, body, html * {
+  font-family: 'Roboto';
+}
+
+header {
+  justify-content: center;
+}
+
+.main {
+  padding-left: 32px;
+  float: top;
+  padding-top: 32px;
+}
+
+.stockExchange {
+  color: black;
+  font-size: 80%;
+  margin-top: -16px;
+  margin-left: 40px;
+}
+
+.stockExchangeCurrency {
+  color: black;
+  font-weight: 1000;
+  margin-right: 8px;
+}
+
+.stockExchangeValue {
+  color: black;
+  font-weight: 0;
+  font-size: 95%;
+}
+
+.stockExchangeDelta {
+  color: green;
+  font-weight: 0;
+  font-size: 90%;
+}
+
+.newsDateSpan {
+  color: #999999;
+  font-size: 75.6%;
+  padding-left: 8px;
+}
+
+.newsCitySpan {
+  color: #6da2e1;
+  cursor: pointer;
+  padding-left: 4px;
+}
+
+.newsHeader {
+  color: #0054b9;
+  font-weight: 1000;
+}
+
+.news {
+font-weight: lighter;
+font-size: 90.6%;
+}
+
+.myLocation {
+  color: #d1d1d1;
+}
+
+.headerRight {
+  padding-right: 16px;
+  float: right;
+}
+
+.headerLeft {
+  float: left;
+  padding-left: 16px;
+}
+
+
+footer {
+  background-color: blue;
+  color: white;
+}
+
+.float-left {
+  float: left;
+}
+
+.oneLine {
+  display: inline-block;
+}
