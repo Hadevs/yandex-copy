@@ -129,14 +129,58 @@ textarea:focus, input:focus{
   padding-left: 4px;
 }
 
+.subContainer {
+  padding-left: 134px;
+}
 .newsHeader {
   color: #0054b9;
   font-weight: 1000;
+  padding-left: 38px;
+}
+
+h3 {
+  color: #0054b9;
+  height: 10px;
+  
+}
+
+.weatherContainer {
+  align-content: center;
+  display: flex;
+}
+
+.trafficValueLabel {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.weatherDegressLabel {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+
+.tryToCenter {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.subWeatherDegressLabel {
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 8px;
+}
+
+.trafficContainer {
+
 }
 
 .news {
-font-weight: lighter;
-font-size: 90.6%;
+  font-weight: lighter;
+  font-size: 90.6%;
 }
 
 .myLocation {
