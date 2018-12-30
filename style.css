@@ -12,11 +12,91 @@ header {
   padding-top: 32px;
 }
 
+.searchHeaderElement {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.searchHeader {
+  color: #0054b9;
+  height: 44px;
+}
+
+.footerRight {
+  float: right;
+}
+
+.footerLeft {
+  float: left;
+}
+
+.footerLeftTitle {
+  font-size: 80%;
+  color: black;
+}
+
+.footerRightTitle {
+  font-size: 80%;
+  color: black;
+}
+
+
+.footerLeftSubtitle {
+  font-size: 99%;
+  color: #999999;
+  cursor: pointer;
+}
+
+.searchFooter {
+  height: 20px;
+  width: 580px
+}
+
+.searchContainer {
+  margin-left: 16px;
+}
+
+.search {
+  padding-top: 32px;
+}
+
+.searchBoxArticle {
+  width: 100%;
+}
+
+.searchButton {
+  background-color: #ffdb4d;
+  border: none;
+  color:black;
+  text-align: center;
+  font-size: 16px;
+  height: 30px;;
+}
+
+.searchInput {
+  border: 0;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 100%;
+  width: 500px;
+  align-content: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
 .stockExchange {
   color: black;
   font-size: 80%;
   margin-top: -16px;
   margin-left: 40px;
+}
+
+.searchBox {
+  border-color: #ffdb4d;
+  border-width: 3px;
+  border-style: solid;
 }
 
 .stockExchangeCurrency {
